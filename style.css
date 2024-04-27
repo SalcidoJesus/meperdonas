@@ -1,0 +1,36 @@
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 20px;
+	background-color: white;
+}
+
+.perdonar {
+	background-color: #00a65a;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.noPerdonar {
+	background-color: #dd4b39;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+
