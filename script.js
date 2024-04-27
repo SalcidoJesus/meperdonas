@@ -3,18 +3,20 @@ var i = 0
 
 const frases = [
 	"no >:c",
-	"por favor :c",
-	":') segura?",
-	":\\/ ¿estás seguro?",
-	":S ¿de verdad?",
-	":c ¿estás segura?",
-	":'( ¿te arrepentiste?",
-	":\\/ ¿lo pensaste mejor?",
+	"es enserio? :c",
+	":') de verdad?",
+	"estás segura?",
+	"completamente segura?",
+	"segura segura?",
+	"por favor?",
+	"por favor por favor?",
+	":c ándale amorcito",
 ];
 
 
 function perdonar() {
-	alert("Perdóname, te diste cuenta de mi error. 😔");
+	const coso = document.querySelector('#coso');
+	coso.innerHTML = `<img src="98948c6cdab2d4120d48a8f3f38edebd.gif"/>`
 }
 
 function noPerdonar() {
